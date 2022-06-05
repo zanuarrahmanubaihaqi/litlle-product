@@ -17,6 +17,7 @@ CRUD (Product & Category) with laravel 7 and mysql
 
 # Note
 
+-   use "/login" to access admin panel
 -   before login edit methode `username()` di file `AuthenticatesUsers.php` vendor/laravel/ui/auth-backend/AuthenticatesUsers.php return 'email' to return 'username'
 -   admin : username -> admin & password -> passw0rd
 -   bootstrap 4 and JQuery inside
