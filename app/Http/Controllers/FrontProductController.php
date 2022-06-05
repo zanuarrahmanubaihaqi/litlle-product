@@ -14,7 +14,7 @@ class FrontProductController extends Controller
 
     public function index()
     {
-        $product = Product::getDataProduct();
+        $product = Product::All();
 
         return view('iproduct', compact('product'));
     }
